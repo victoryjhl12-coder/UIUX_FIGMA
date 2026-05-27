@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+}
+.box-pink{
+    /* 주석: 웹상에서는 px단위를 사용한다. */
+background-color: pink;
+}
+.box-cyan{
+    /* box-blue 는 하늘색 */
+    background-color: cyan;
+}
+.box-yellow{
+    /* box-green는 노랑색 */
+    background-color: yellow;
+}
