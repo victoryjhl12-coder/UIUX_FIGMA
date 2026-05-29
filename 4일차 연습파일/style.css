@@ -1,0 +1,23 @@
+header {
+    height: 86px;
+    background-color: #cfcfcf;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    background-color: aliceblue;
+}
+h1 {
+    background-color: rgb(213, 221, 231);
+}
+.use-box {
+background-color: rgb(225, 239, 252);
+}
+main {
+    height: 400vh;
+    background-color: #e0e0e0;
+}
+footer {
+    height: 68px;
+    background-color: #e0e0e0;
+}
