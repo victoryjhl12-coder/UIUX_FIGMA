@@ -1,0 +1,25 @@
+.sction01 {
+    background-color: #dfdede;
+    width: 950px;
+    display: flex; flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid {
+    background-color: blue;
+    width: 950px;
+    margin-left: auto; margin-right: auto;
+}
+.sct-01-top-box {
+    width: 100%; height: 200px;
+    background-color: #e9effb; 
+}
+.sct-01-bottom-box {
+    width: 100%; height: 331px;
+    background: #EFD4FF;
+    /* flex-grow: 1; */
+}
+span {
+    border: 1px solid #000;
+    display: inline-flex; padding: 20px;
+}
