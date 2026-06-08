@@ -1,0 +1,39 @@
+.sct01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1920px; height: 1080px;
+    gap: 8px;
+    
+}
+.grid {
+     background-color: #a3a3a3;
+     display: flex; width: 950px;
+     margin-left: auto; margin-right: auto;
+}
+.section01 {
+    width: 930px; height: 460px;
+    background: #E8FFFF;
+}
+.section02 {
+    width: 930px; height: 460px;
+    background-color: #74c4c4;
+    display: flex;
+    gap: 8px;
+}
+.sct02-bottom-box01 {
+    width: 211px;
+    background-color: aqua;
+    
+}
+.sct02-bottom-box02 {
+    flex-grow: 1;
+    background-color: aquamarine;
+    display: flex;
+}
+.sct02-bottom-box03 {
+    flex-grow: 1;
+    background-color: #e9a7a7;
+    display: flex;
+}
