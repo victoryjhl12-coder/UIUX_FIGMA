@@ -14,26 +14,26 @@
 }
 .section01 {
     width: 930px; height: 460px;
-    background: #E8FFFF;
+    background: #d2f2ff;
 }
 .section02 {
     width: 930px; height: 460px;
-    background-color: #74c4c4;
+    background-color: #ffffff;
     display: flex;
     gap: 8px;
 }
 .sct02-bottom-box01 {
     width: 211px;
-    background-color: aqua;
+    background-color: rgb(186, 213, 255);
     
 }
 .sct02-bottom-box02 {
     flex-grow: 1;
-    background-color: aquamarine;
+    background-color: rgb(127, 168, 255);
     display: flex;
 }
 .sct02-bottom-box03 {
     flex-grow: 1;
-    background-color: #e9a7a7;
+    background-color: #9180f1;
     display: flex;
 }
