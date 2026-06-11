@@ -1,14 +1,15 @@
 main {
      gap: 16px;
+     display: flex;
 }
 .left-box01 {
     background-color: rgb(247, 251, 255);
-    display: flex;
     gap: 10px;
     padding: 10px;
     height: 370px;
+    flex-direction: row;
 }
-.lbox01 {
+.lbox01, .lbox02 {
      height: 350px;
      display: flex;
      padding: 10px;
@@ -24,4 +25,26 @@ main {
      align-items: flex-start;
      flex-direction: column;
      font-style: normal;
+}
+.middle-box02 {
+     background-color: rgb(241, 255, 255);
+     display: flex;
+     padding: 0 20px;
+     flex-direction: column ;
+     height: 849px;
+     /* background-color: #FFF; */
+}
+.mbox0201 {
+     background-color: #BAFFD7;
+     width: 392px;
+     flex-grow: 1;
+     gap: 10px;
+}
+.mbox0202 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 10px;
+      flex-grow: 1;
 }
