@@ -1,0 +1,13 @@
+.best-pro-btn {
+    border: 1px solid #E1DED9;
+    background: #FFF;
+    /* 임의로 가로 폭 주기 왜냐면 상자가 없으니까 */
+    width: 410px;
+    padding-top: 12px; padding-bottom: 12px;
+    color: gray
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px; /* 150% */
+    
+}
