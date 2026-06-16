@@ -1,0 +1,14 @@
+body {
+    margin: 0; padding: 0;
+}
+a {
+    /* inherit 상속 코드 a태그에 적으면 html 색을 가져오겠다는 상속임 */
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    padding: auto;
+    /* none -> 없다 */
+    border: none; outline: auto;
+}
