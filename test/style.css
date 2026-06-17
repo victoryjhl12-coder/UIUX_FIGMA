@@ -22,6 +22,7 @@ main {
 }
 .amp-swiper {
     border: 1px solid green;
+    display: flex;
 }
 .best-product-list {
     flex-grow: 1; display: flex;
@@ -36,8 +37,8 @@ main {
 }
 .best-img-box {
     border: 1px solid orange;
-    weight: 410px
-    background-color: #EBEBEB;
+    height: 410px;
+    background-color: #ebebeb;
 }
 .best-discount-title {
     border: 1px solid orange;
