@@ -32,9 +32,7 @@ main {
 .best-product-list02 { border: 3px solid rgb(216, 0, 0);}
 .best-product-list03 { border: 3px solid rgb(150, 0, 0);}
 .best-product-list04 { border: 3px solid rgb(85, 0, 0);}
-.best-img-box {
-    border: 1px solid orange;
-}
+
 .best-img-box {
     border: 1px solid orange;
     height: 410px;
