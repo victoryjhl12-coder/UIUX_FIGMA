@@ -23,24 +23,28 @@
  .amp-swiper {
     border: 1px solid green;
     display: flex;
+    gap: 40px
  }
  .best-product-list {
-    display: flex;
+    display: flex; flex-grow: 1;
     flex-direction: column;
-    flex-grow: 1;
+    flex-basis: 0;
  }
  .best-product-list01 { border: 3px solid purple;}
 .best-product-list02 { border: 3px solid rgb(174, 2, 174);}
 .best-product-list03 { border: 3px solid rgb(255, 0, 255);}
 .best-product-list04 { border: 3px solid rgb(255, 34, 255);}
- .product-img {
-    border: 1px solid blue;
+ .best-img-box {
     height: 410px;
     background-color: #ebebeb;
 }
-.best-discount-title {
-    border: 1px solid blue;
-    padding-top: 40px; padding-bottom: 42px;
+.best-discount-title >a {
+   font-size: 16px;
+   font-weight: 600;
+   line-height: 24px;
+   border: 1px solid blue;
+   color: #333;
+   padding-top: 40px; padding-bottom: 42px;
 }
 .best-discount-subhead {
     border: 1px solid blue;
@@ -63,6 +67,24 @@
 }
 .best-capacity-60ml {
     border: 1px solid blue;
+}
+.best-pro-btn {
+   background: #FFF;
+   padding-top: 12px; padding-bottom: 12px;
+   color: #212529;
+   flex-grow: 1;
+   text-align: center;
+   font-size: 14px;
+   font-weight: 600;
+   line-height: 21px;
+   letter-spacing: 0.06px;
+   transition: 0.3s;
+   border: 1px soild #E1DED9;
+   background: #FFF;
+}
+.best-pro-btn:hover {
+   background-color: #212529;
+    color: #E1DED9;
 }
 footer {
     border: 1px soild red;
