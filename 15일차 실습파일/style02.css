@@ -1,0 +1,6 @@
+.img-box02 {
+    background-color: blueviolet;
+}
+.img-box02 > img {
+    width: 500px; height: 500px;
+}

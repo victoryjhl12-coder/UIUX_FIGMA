@@ -1,0 +1,7 @@
+.img-box03 {
+    background-color: blue;
+}
+.img-box03 > img {
+    width: 500px; height: 500px;
+    object-fit: cover;
+}
