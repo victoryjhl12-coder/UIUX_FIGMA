@@ -1,0 +1,34 @@
+header {
+    border: 1px solid #000;
+}
+.popup {
+    background-color: #e8e8e8;
+    padding-bottom: 12px; padding-top: 12px;
+    /* 텍스트 상자 속성으로 사용해도 됨 */
+    text-align: center;
+}
+.top-bar {
+    border: 1px solid red;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu01 {
+    border: 1px solid orange;
+    width: 388px;
+}
+.menu01-ul {
+    display: flex;
+}
+.logo-box {
+    border: 1px solid orange;
+}
+.user-box {
+    border: 1px solid orange;
+    width: 388px;
+    display: flex;
+    justify-content: end;
+}
+.user-box-ul {
+    display: flex;
+}

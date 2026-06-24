@@ -1,0 +1,22 @@
+body {margin: 0; padding: 0;}
+/* list-style: none 화면상으로 숫자나 표기 사라짐 */
+/* nomal라이즈 시에  */
+ul,ul>li{margin: 0; list-style: none; padding: 0;}
+p {margin: 0;}
+/* 기본 마진이나 폰트 크기가 적용되어 있으나 우리는 다 조절해서 사용하기 때문에 초기화 하고 사용하는 것 */
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: inherit;
+    margin: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    background-color: pink;
+}
+button {
+    background-color: transparent;
+    padding: auto;
+    border: none;
+    outline: none;
+}
