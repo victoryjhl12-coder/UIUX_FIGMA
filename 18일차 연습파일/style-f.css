@@ -1,5 +1,5 @@
  /* header {
-    /* border: 1px solid #000; */
+    border: 1px solid #000;
 } */
 .popup::before {
     /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
