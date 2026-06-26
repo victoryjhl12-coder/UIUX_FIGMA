@@ -1,12 +1,13 @@
  header {
     border: 1px solid #000;
 }
-.popup::before {
+.popup before {
     /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
     /* 태그를 비우는건 안돼는데 코드를 비우는건 가능 */
     content: "";
     border: 1px solid red;
     width: 30px;
+    
     
 }
 .popup {
