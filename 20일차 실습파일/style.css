@@ -24,9 +24,15 @@
 .top-bar {
     padding: 10px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
     border: 1px solid red;
+}
+.top-bar:hover {
+    padding-top: calc(10px + 8px);
+    padding-bottom: calc(10px + 8px);  
 }
 .menu01 {
     width: 388px;
