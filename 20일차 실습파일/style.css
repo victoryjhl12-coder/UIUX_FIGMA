@@ -1,0 +1,37 @@
+.popup {
+    border: 1px solid orange; 
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 12px 0;
+}
+.top-bar {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.menu01 {
+    width: 388px;
+}
+.menu01-ul {
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    
+}
+.logo-box {
+    border: 1px solid orange;
+
+}
+.user-menu {
+    /* display: flex; */
+    width: 388px;
+}
+.user-menu-ul {
+    border: 1px solid orange;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}

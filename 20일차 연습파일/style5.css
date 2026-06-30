@@ -1,1 +1,103 @@
 /* 1차 구현 상단바에 2차 상단바 적용(평소 비활성/ 마우스 hover 활성화) */
+
+.popup::before {
+    /* 아무것도 작성하지 않아도 content: ""; 코드 필수 */
+    /* 태그를 비우는건 안돼는데 코드를 비우는건 가능 */
+    content: "";
+    /* border: 1px solid red; */
+    width: 30px;
+    
+}
+.popup {
+    background-color: #e8e8e8;
+    padding-bottom: 12px; padding-top: 12px;
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 145.631% */
+    /* text-align: center; */
+    padding-left: 20px; padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.popup::after {
+    content: "x";
+    font-size: 20px;
+    /* 실제로는 안눌리지만 일단 활성화 시켜둔거임 */
+    cursor: pointer;
+    /* border: 1px solid red; */
+    width: 30px;
+    text-align: right;
+}
+.top-bar {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+}
+.top-bar:hover {
+    /* clac() -> 속성값에서 사칙연산 가능 */
+    /* padding: calc(16px + 8px) */
+    padding-top: calc(16px + 8px);
+    padding-bottom: calc(16px + 8px);
+}
+.menu01 {
+    /* border: 1px solid orange; */
+    width: 388px;
+}
+.menu01-ul {
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+    /* 상자 높이가 없으니까 만들 */
+    height: 100%;
+    /* background-color: greenyellow; */
+}
+.m01-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+}
+.menu02 {
+    background-color: orange;
+    opacity: 0.3;
+    font-size: 50px;
+    font-weight: 700;
+    /* 평소에 사라져있다가 menu01에 마우스 올리면 나타남 */
+    display: none;
+    position: absolute;
+    /* 상단바 안 구성요소가 많은 경우 스크롤과 합쳐저 가로 스크롤 발성 가능성 높음 */
+    width: 100%;
+    /* top: 100% -> top-bar높이값 */
+    left: 0; right: 0;  top: 100%;
+}
+/* 이벤트 코드는 아래에 작성한다-> 로딩 오류 조심 */
+/* .menu01에 마우스를 올리면 .menu02가 나타난다 */
+.menu01:hover > .menu02 {
+    display: block;
+}
+.logo-box {
+    /* border: 1px solid orange; */
+    display: flex;
+    align-items: center;
+}
+.user-box {
+    /* border: 1px solid orange; */
+    width: 388px;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: stretch; */
+}
+.user-box-ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* background-color: blue; */
+}
+.user-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}

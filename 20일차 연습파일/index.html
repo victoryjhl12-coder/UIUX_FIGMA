@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>상단바 메뉴안에 2차메뉴 만들기</title>
+    <!-- <link rel="stylesheet" href="style3.css"> -->
+    <!-- <link rel="stylesheet" href="style4.css"> -->
+    <!-- <link rel="stylesheet" href="style5.css"> -->
+    <link rel="stylesheet" href="style6.css">
+    <link rel="stylesheet" href="nomal.css">
+</head>
+<body>
+    <header>
+        <div class="popup">Sale doesn’t get better—up to 70% off SS26 styles.</div>
+        <div class="top-bar">
+            <nav class="menu01">
+                <ul class="menu01-ul">
+                    <li class="m01-item m01-item-item01"><a href="#" target="_blank" title="Womenswear">Womenswear</a></li>
+                    <li class="m01-item m01-item-item02"><a href="#" target="_blank" title="Menswear">Menswear</a></li>
+                    <li class="m01-item m01-item-item03"><a href="#" target="_blank" title="Everything else">Everything else</a></li>
+                    <li class="m01-item m01-item-item04"><a href="#" target="_blank" title="sale">sale</a></li>
+                    <li class="m01-item m01-item-item05"><a href="#" target="_blank" title="search">search</a></li>
+                </ul>
+                <div class="menu02">1차 메뉴안에 2차 메뉴</div>
+            </nav>
+            <h1 class="logo-box"><a href="#" target="_blank" title="home">
+                <img src="./img/logo_img.svg" alt="로고 이미지">
+                <!-- inline -> 여백, 좌표 고정 / 해결: display속성값 변경 mark, span, a, img 
+                /nav,header -> 의미만 부여 -->
+            </a>
+            </h1>
+            <div class="user-box">
+                    <ul class="user-box-ul">
+                        <!-- ul.user-box-ul>li.user-item.user-item0$*4>a[href="#" target="_blank" title="search"] -->
+                        <li class="user-item user-item01"><a href="#" target="_blank" title="English">English</a></li>
+                        <li class="user-item user-item02"><a href="#" target="_blank" title="login">login</a></li>
+                        <li class="user-item user-item03"><a href="#" target="_blank" title="wishlist">wishlist</a></li>
+                        <li class="user-item user-item04"><a href="#" target="_blank" title="bag">bag</a></li>
+                    </ul>
+            </div>
+            <!--
+             ul:user-box-ul
+             (4개)li:user-ltem
+            -->
+        </div>
+    </header>    
+    <!-- <div class="ex">
+        <h1>position</h1>
+        <p>position은 위치를 지정하는 속성이다</p>
+        <p><mark>값 종류</mark><span>static(기본값), absolute, fixed, relative</span></p>
+    
+        <h1>static</h1>
+        <p>static: x와 y축을 지정할 수 없다.</p>
+        <p><span>#display 이동</span><span>#transform 이용</span></p>
+        <div class="static">static</div>
+    
+        <div class="absolute">absolute</div>
+        <div class="fixed">fixed</div>
+    
+        <h2>relative: absolute의 x와 y좌표 기준 지정</h2>
+        <p>부모태그만 지정x -> absolute 위에 있는 모든 태그에 지정 가능 (혈연이여야만 가능) </p>
+        <p>위치속성(left, right, top, bottom) 사용 x</p>
+        <div class="relative">relative
+            <div class="absolute">absolute</div>
+    </div>
+    </div> -->
+</body>
+</html>
