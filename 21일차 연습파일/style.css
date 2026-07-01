@@ -53,7 +53,7 @@
 .menu02 {
     background-color: rgb(214, 214, 214);
     /* height: 0; */
-    height: 400px; transition: 0.5s;
+    height: 0; transition: 0.5s;
     overflow: hidden;
     position: absolute;
     width: 100%;
@@ -113,7 +113,7 @@
     justify-content: space-between;
     display: none; 
 }
-.m02-item:hover > .m03-nav {
+.m02-item:hover > .mn03-nav {
     display: flex;
 }
 .m03-item>a {
