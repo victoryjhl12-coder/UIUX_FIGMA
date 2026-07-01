@@ -1,0 +1,146 @@
+.popup::before {
+    content: "";
+    width: 30px;
+}
+.popup {
+    background-color: #e8e8e8;
+    padding-bottom: 12px; padding-top: 12px;
+    color: #000;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 145.631% */
+    padding-left: 20px; padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.popup::after {
+    content: "x";
+    font-size: 20px;
+    /* 실제로는 안눌리지만 일단 활성화 시켜둔거임 */
+    cursor: pointer;
+    width: 30px;
+    text-align: right;
+}
+.top-bar {
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    transition: 0.5s;
+}
+.top-bar:hover {
+    /* clac() -> 속성값에서 사칙연산 가능 */
+    /* padding: calc(16px + 8px) */
+    padding-top: calc(16px + 8px);
+    padding-bottom: calc(16px + 8px);
+}
+.menu01 {
+    width: 388px;
+}
+.menu01-ul {
+    display: flex;
+    gap: 16px; 
+    align-items: center;
+    /* 상자 높이가 없으니까 만들 */
+    height: 100%;
+}
+.m01-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px;
+}
+.menu02 {
+    background-color: rgb(214, 214, 214);
+    /* height: 0; */
+    height: 400px; transition: 0.5s;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0; right: 0;  top: 100%;
+    display: flex;
+    justify-content: center;
+}
+/* .menu01에 마우스를 올리면 .menu02가 나타난다 */
+.menu01:hover > .menu02 {
+    height: 400px;
+}
+/* container -> 평균적으로 많이 사용하는 grid 이름 */
+.menu02 > .container {
+    width: 1620px;
+    display: flex;
+}
+.mn02-img-box {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mn02-img-item {
+    background-color: orange;
+    width: 300px; height: 300px;
+}
+.mn02-img-item>a {height: 100%;}
+.mn02-img-item img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+.mn02-nav {
+    flex-grow: 1;
+    display: flex; align-items: center;
+    justify-content: center;
+}
+.mn02-nav>ul {
+    display: flex; gap: 80px;
+}
+/* m02-ite, -> li */
+.m02-item>a {
+    font-size: 54px;
+    font-weight: 700;
+    color: #333;
+    transition: 0.3s;
+}
+.m02-item:hover > a {
+    color: blue;
+    text-decoration: underline;
+}
+.m02-item {
+    position: relative;
+}
+.mn03-nav {
+    position: absolute;
+    left: 0; right: 0; top: calc(100% + 20px);
+    justify-content: space-between;
+    display: none; 
+}
+.m02-item:hover > .m03-nav {
+    display: flex;
+}
+.m03-item>a {
+    font-size: 24px; font-weight: 700;
+    color: #565656;
+    transform: 0.3s;
+}
+.m03-item:hover >a {
+    color: #333;
+    text-decoration-style: underline;
+}
+.logo-box {
+    display: flex;
+    align-items: center;
+}
+.user-box {
+    width: 388px;
+    display: flex;
+    justify-content: flex-end;
+}
+.user-box-ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.user-item {
+    color: #000;
+    font-size: 11px;
+    line-height: 15px; /* 136.364% */
+}
